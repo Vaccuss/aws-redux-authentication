@@ -1,6 +1,6 @@
 {
   "name": "aws-redux-authentication",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "/src/index.js",
   "author": "vaccuss <vaccussnpm@gmail.com>",
   "keywords": [
