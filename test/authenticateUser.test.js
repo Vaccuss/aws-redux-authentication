@@ -1,5 +1,5 @@
 import {expect} from 'chai'
-import {responseAuthUserAction} from '../events/authenticateUser'
+import {responseAuthUserAction} from '../src/events/authenticateUser'
 
 
 let user = 'user'

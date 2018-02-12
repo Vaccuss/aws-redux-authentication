@@ -4,7 +4,7 @@ import {
     CognitoUserPool as Pool,
 } from 'amazon-cognito-identity-js'
 import {expect} from 'chai'
-import {cognitoAuthExistingUser} from '../../utils/auth/loginManagement'
+import {cognitoAuthExistingUser} from '../../src/utils/auth/loginManagement'
 
 let username = 'deansteven308@gmail.com'
 let userPoolId = 'ap-southeast-2_BbLiOzYMX'
