@@ -5,7 +5,7 @@ import {logoutAction} from "./events/logoutUser";
 
 // Action API
 export default {
-    authenticationReducers : authenticationInit
+    authenticationReducers : authenticationInit,
     submitLogin: submitAuthUserAction,
     submitLogout: logoutAction
 }
