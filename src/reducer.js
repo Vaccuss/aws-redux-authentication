@@ -6,7 +6,7 @@ let reducers = {
     'AUTH_EXISTING_RESPONSE': authUserReducer,
 }
 
-export const authenticationInit = (poolData, authSession = null) => {
+export const authenticationReducer = (poolData, authSession = null) => {
     let authenticationInit = {
         session: 'init',
         pool: new Pool(poolData),
@@ -18,5 +18,5 @@ export const authenticationInit = (poolData, authSession = null) => {
     }
 }
 
-//EXAMPLE: authenticationInit(pooldata)
+//EXAMPLE: authenticationReducer(pooldata)
 

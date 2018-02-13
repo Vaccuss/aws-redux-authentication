@@ -1,6 +1,6 @@
 
 
 // New password handler
-export const submitNewPasswordAction = ({user}, password) => {
+export const newPasswordAction = ({user}, password) => {
     return user.completeNewPasswordChallenge(password)
 }
