@@ -1,8 +1,8 @@
 {
   "name": "aws-redux-authentication",
   "version": "1.0.13",
-  "main": "/src/index.js",
-  "module": "/src/index.js",
+  "main": "/lib/index.js",
+  "module": "/lib/index.js",
   "author": "vaccuss <vaccussnpm@gmail.com>",
   "keywords": [
     "cognito",
@@ -31,7 +31,8 @@
     "url": "https://github.com/Vaccuss/aws-redux-authentication"
   },
   "scripts": {
-    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "build": "babel src --presets babel-preset-es2015 --out-dir lib",
+    "prepublish": "npm build",
     "test": "mocha --compilers js:babel-core/register"
   }
 }
