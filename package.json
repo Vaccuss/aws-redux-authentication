@@ -2,6 +2,7 @@
   "name": "aws-redux-authentication",
   "version": "1.0.12",
   "main": "/src/index.js",
+  "module": "/src/index.js",
   "author": "vaccuss <vaccussnpm@gmail.com>",
   "keywords": [
     "cognito",
